@@ -96,7 +96,7 @@ class Browser extends Region {
               content.getChildren().setAll(
                 new Label(event.getData())
               );
-              content.setPrefSize(500, 200); 
+              content.setPrefSize(300, 100); 
               
               popup.setScene(new Scene(content));
               popup.showAndWait();
